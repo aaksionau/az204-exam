@@ -6,7 +6,7 @@ name: Build and deploy ASP.Net Core app to Azure Web App - az-204webapp-12345
 on:
   push:
     branches:
-      - main
+      - development
   workflow_dispatch:
 
 jobs:
@@ -19,8 +19,7 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '3.1'
-          include-prerelease: true
+          dotnet-version: '6.0'
 
       - name: Build with dotnet
         run: dotnet build --configuration Release

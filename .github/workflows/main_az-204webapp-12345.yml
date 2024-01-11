@@ -6,7 +6,7 @@ name: Build and deploy ASP.Net Core app to Azure Web App - az-204webapp-12345
 on:
   push:
     branches:
-      - development
+      - main
   workflow_dispatch:
 
 jobs:

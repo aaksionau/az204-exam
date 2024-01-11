@@ -1,0 +1,16 @@
+<Project>
+    <PropertyGroup>
+        <ApplicationInsightsVersion>2.*</ApplicationInsightsVersion>
+        <AspNetCoreVersion>7.*</AspNetCoreVersion>
+        <AzureAppConfigurationVersion>6.*</AzureAppConfigurationVersion>
+        <AzureIdentityVersion>1.*</AzureIdentityVersion>
+        <CodeGenerationDesignVersion>7.*</CodeGenerationDesignVersion>
+        <IdentityVersion>7.*</IdentityVersion>
+        <EntityFrameworkVersion>7.*</EntityFrameworkVersion>
+        <MicrosoftAccountVersion>7.*</MicrosoftAccountVersion>
+        <MicrosoftExtensionsCachingStackExchangeRedisVersion>7.*</MicrosoftExtensionsCachingStackExchangeRedisVersion>
+        <StackExchangeRedisVersion>2.*</StackExchangeRedisVersion>
+        <SwashbuckleVersion>6.*</SwashbuckleVersion>
+        <TargetFrameworkVersion>net7.0</TargetFrameworkVersion>
+    </PropertyGroup>
+</Project>
